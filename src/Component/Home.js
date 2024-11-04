@@ -20,7 +20,7 @@ function Home() {
                         <a href="/addrecord" className='btn btn-primary p-2' style={{width:"100px"}}>Driver</a>
                     </div>
                     <div >
-                        <a href="" className='btn btn-primary p-2' style={{width:"100px"}}>HR</a>
+                        <a href="/logbook" className='btn btn-primary p-2' style={{width:"100px"}}>HR</a>
                     </div>
                 </div>
             </section>

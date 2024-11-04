@@ -74,18 +74,16 @@ function Form() {
 
     };
 
-    const navigate = useNavigate();
-    const goToLog = (e) => {
-        navigate('/logbook');
-       
-    };
-
+    const nav = useNavigate();
+    const unApprovedLog = () => {
+    nav("/unapprovedlog");
+    }
     return (
         <div>
 
             <div className='d-flex align-items-center first-div'>
                 <h2 className="text-center mb-0 me-3">Add Record</h2>
-                <button className='btn btn-primary' onClick={goToLog}>Go To LogBook</button>
+                <button className='text-end btn btn-primary' onClick={unApprovedLog}> Unapproved Log</button>
             </div>
             <form onSubmit={handleAddEntry} className="form-container">
                 <div className="mb-3">
