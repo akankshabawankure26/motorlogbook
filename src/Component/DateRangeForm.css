@@ -1,0 +1,54 @@
+.date-range-form {
+  margin-left: 400px;
+  padding: 30px;
+  width: 650px;
+  display: flex;
+  flex-direction: column; /* Form layout is stacked vertically */
+  gap: 1rem; /* Add spacing between form-row and button-row */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  display: flex; /* Make form fields align in one row */
+  gap: 1rem; /* Add spacing between fields */
+  align-items: center; /* Center items vertically */
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* Add spacing below the label */
+}
+
+.select,
+.form-input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 180px; /* Fixed width for input and select */
+}
+
+.form-button-row {
+  display: flex;
+  justify-content: center; /* Center the button */
+  margin-top: 1rem;
+}
+
+.form-button {
+  width: 150px;
+  padding: 0.5rem 1rem;
+  background-color: #28a745; /* Green color for submit button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
